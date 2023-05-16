@@ -1,15 +1,16 @@
 ﻿Feature: Verify Google Home page functionality 
 
-Scenario: Verify Search Java Tutorials
+Background: 
 	Given Navigate Google Home Page URL
 	And Search Text box should be present and enabled in google home page
-	When User serach a course with a keyword java tutorials
-	And Hit Enter button
-	Then All course releated to java tutorials should be present
 
-Scenario: Verify Search specflow Tutorials 
-	Given Navigate Google Home Page URL
-	And Search Text box should be present and enabled in google home page
-	When User serach a course with a keyword specflow tutorials
+Scenario Outline: Search in google page with diffrent -2 parameters
+	
+	When User serach a course with a <keywordName> tutorials
 	And Hit Enter button
-	Then All course releated to specflow tutorials should be present
+	Then All course releated to <KeywordName> tutorials should be present
+
+Example: 
+|KeywordName|
+|Java       |
+|Specflow   |

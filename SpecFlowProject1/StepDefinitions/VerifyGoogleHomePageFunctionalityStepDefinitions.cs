@@ -38,13 +38,13 @@ namespace SpecFlowProject1.StepDefinitions
         [When(@"User serach a course with a keyword specflow tutorials")]
         public void WhenUserSerachACourseWithAKeywordSpecflowTutorials()
         {
-            throw new PendingStepException();
+           
         }
 
         [Then(@"All course releated to specflow tutorials should be present")]
         public void ThenAllCourseReleatedToSpecflowTutorialsShouldBePresent()
         {
-            throw new PendingStepException();
+           
         }
 
     }
