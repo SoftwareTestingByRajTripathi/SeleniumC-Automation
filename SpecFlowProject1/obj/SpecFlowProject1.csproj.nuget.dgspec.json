@@ -56,6 +56,14 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.9.1, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[113.0.5672.6300, )"
+            },
             "SpecFlow.NUnit": {
               "target": "Package",
               "version": "[3.9.40, )"
